@@ -7,6 +7,7 @@ import Tours from './components/Tours';
 import Footer from './components/Footer';
 
 function App() {
+  <script>const date = (document.getElementById('date').innerHTML = new Date().getFullYear());</script>;
   return (
     <>
       <Navbar />
